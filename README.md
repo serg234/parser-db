@@ -2,7 +2,7 @@
 
 ## Run project
 
-### 1. Update `.env` in the project root
+### 1. Update `.env.docker` in the project root
 
 Set your user and group IDs from your system.
 
