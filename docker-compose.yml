@@ -8,6 +8,10 @@ services:
     volumes:
       - ./:/var/www/html
     environment:
+      HOME: /tmp/home
+      COMPOSER_HOME: /tmp/.composer
+      XDG_CONFIG_HOME: /tmp/.config
+      XDG_CACHE_HOME: /tmp/.cache
       APP_ENV: local
       APP_DEBUG: "true"
       DB_CONNECTION: mysql
