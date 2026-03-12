@@ -59,7 +59,7 @@ docker compose --env-file .env.docker exec app php artisan migrate
 Run in a separate terminal:
 
 ```bash
-docker compose exec app php artisan queue:work
+docker compose --env-file .env.docker exec app php artisan queue:work
 ```
 
 ---
